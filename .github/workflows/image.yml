@@ -23,4 +23,5 @@
          uses: docker/build-push-action@v3
          with:
            push: true
+           platforms: linux/amd64,linux/arm64,linux/arm/v7
            tags: benlumia007/multiple-arch
